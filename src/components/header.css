@@ -1,6 +1,6 @@
 
 p{
-    color: #888;
+    color: var(--pColor);
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
 }
@@ -11,8 +11,15 @@ header{
 }
 h1,h2{    
     font-family: 'Poppins', sans-serif;
-    color: #222;    
+    color: var(--h2Color);    
 }
 h1{
     font-size: 40px;
+}
+
+
+@media only screen and (max-width: 550px){
+    header{
+        width: 310px; 
+    }
 }
